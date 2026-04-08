@@ -32,7 +32,7 @@ exports.register = async (req, res) => {
 // 🔐 LOGIN
 exports.login = async (req, res) => {
   try {
-    console.log("BODY:", req.body); // 👈 DEBUG
+    // console.log("BODY:", req.body); // 👈 DEBUG
     const { email, password } = req.body;
 
     const user = await User.findOne({ email });
