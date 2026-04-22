@@ -145,6 +145,6 @@ app.use("/api/orders", require("./routes/orderRoutes"));
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 
-app.listen(5000, () =>
-  console.log("🚀 Server running on port 5000")
+app.listen(80, () =>
+  console.log("🚀 Server running on port 80")
 );
